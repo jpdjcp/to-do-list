@@ -1,0 +1,59 @@
+:root {
+    --orange: #d95550;
+    --ligthOrange: #dd6662;
+    --veryLigthOrange: #f89e8b;
+    --gray: #55557b;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--orange);
+}
+
+h1 {
+    margin-top: 200px;
+    color: var(--white);
+    text-align: center;
+}
+
+form {
+    width: 400px;
+    margin: 45px auto;
+    text-align: center;
+}
+
+form input[type="text"] {
+    background-color: var(--orange);
+    color: var(--white);
+    border-style: none;
+    font-size: 1.5em;
+}
+
+form input[type="text"]::placeholder {
+    color: var(--veryLigthOrange);
+}
+
+form input[type="text"]:focus {
+    outline: none;
+}
+
+form input[type="submit"] {
+    font-size: 2em;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border-style: none;
+    color: var(--orange);
+}
+
+form input[type="submit"]:hover {
+    background-color: var(--veryLigthOrange);
+    cursor: pointer;
+    color: var(--white);
+}
