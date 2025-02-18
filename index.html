@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <h1>To do List - JavaScript</h1>
+    <form action="#" id="userInput">
+        <input type="text" placeholder="Escribe tu tarea aquí..." autofocus>
+        <input type="submit" value="+" id="addBtn">
+    </form>
+    <div id="list" class="list-container">
+
+        <div class="task-container" id="1">
+            <label>
+                <input type="checkbox">
+                Tarea 1
+            </label>
+            <img src="img/trash.png" class="closeBtn">
+        </div>
+
+    </div>
+    <div id="stats">
+        <p>Tareas pendientes: 5 Completadas: 3</p>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
