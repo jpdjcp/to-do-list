@@ -57,3 +57,36 @@ form input[type="submit"]:hover {
     cursor: pointer;
     color: var(--white);
 }
+
+.list-container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.task-container {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    margin: 6px;
+    padding: 16px;
+    border-radius: 6px;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: var(--gray);
+}
+
+.closeBtn {
+    width: 15px;
+    height: 15px;
+}
+
+.closeBtn:hover {
+    cursor: pointer;
+}
+
+#stats {
+    margin-top: 25px;
+    font-size: 1.23em;
+    color: var(--veryLigthOrange);
+    text-align: center;
+}
